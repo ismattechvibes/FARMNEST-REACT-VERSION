@@ -1,0 +1,126 @@
+.nav{
+    padding: 25px 3rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav h2{
+    word-spacing:0.2em;
+}
+
+.sidebar{
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: #0b2f26;
+    width: 200px;
+    padding: 10px 3rem;
+    height: 100vh;
+}
+
+.sidebarCont{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: #fff;
+    /* margin-top: 5px; */
+}
+
+.close{
+    position: absolute;
+    bottom: 0;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* https://agro-project-uiob.onrender.com */
+
+.sidebarCont .profile .profImg{
+    background: #fff;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebarCont .profile img{
+    width: 60px;
+    height: 60px;
+}
+
+.sidebarCont .li{
+    display: flex;
+    gap: 10px;
+}
+
+.search{
+    display: flex;
+    background: #f3f2f2;
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search i{
+    font-size: 18px;
+}
+
+.search input{
+    border: none;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+    background: #f3f2f2;
+}
+
+.herosection{
+    /* color: #000; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.msg ul{
+    display: flex;
+    gap: 50px;
+}
+
+.secRow{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.second{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+table{
+    border: 1px solid rgb(215, 212, 212);
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, tr, th{
+    border: 1px solid rgb(215, 212, 212);
+    padding: 10px 15px;
+}
