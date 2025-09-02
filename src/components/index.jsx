@@ -7,7 +7,7 @@ import Image9 from "../components/images/fm1.jpg";
 import Image10 from "../components/images/fm2.jpg";
 import Image12 from "../components/images/pose1.jpg";
 import Image13 from "../components/images/pose2.jpg";
-import Image14 from "../components/images/Logo.png";
+import Image14 from "../components/images/logo.png";
 import Image15 from "../components/images/pose3.jpg";
 import Image16 from "../components/images/pose4.jpg";
 import Image17 from "../components/images/im2.webp";

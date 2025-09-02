@@ -93,10 +93,21 @@
     align-items: center;
 }
 
+.heroCont{
+    display: grid;
+    gap: 20px;
+}
+
 .head{
     display: flex;
     justify-content: space-between;
     gap: 120px;
+}
+
+/* first row*/
+.firstRow{
+    display: grid;
+    gap: 20px;
 }
 
 .msg ul{
@@ -104,12 +115,21 @@
     gap: 50px;
 }
 
-.secRow{
+.firstSec{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 120px;
 }
 
-.second{
+.sales{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* second row */
+
+.secondRow{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }

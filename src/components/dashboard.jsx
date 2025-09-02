@@ -61,6 +61,7 @@ const Dashboard = () => {
             </div>
       </section>
     </div>
+    
     <div className={Style.herosection}>
       <div className={Style.heroCont}>
         <div className={Style.firstRow}>
@@ -82,29 +83,31 @@ const Dashboard = () => {
           </ul>
         </div>
       </div>
-      <div className={Style.secRow}>
-        <div className="sales sale1">
+      <div className={Style.firstSec}>
+        <div className={Style.sales}>
           <h4>0$</h4>
           <p>Today</p>
         </div>
-        <div className="sales sale2">
+        <div className={Style.sales}>
           <h4>0</h4>
           <p>Pending</p>
         </div>
-        <div className="sales sale3">
+        <div className={Style.sales}>
           <h4>0</h4>
           <p>Completed</p>
         </div>
-        <div className="sales sale4">
+        <div className={Style.sales}>
           <h4>0</h4>
           <p>Low</p>
         </div>
       </div>     
       </div>
 
-      <div className={Style.second}>
-        <div className={Style.recentOrd}>
-          <h3>Recent Order</h3>
+      <div className={Style.secondRow}>
+        <div className={Style.item1}>
+          <div>
+            <h3>Recent Order</h3>
+          </div>
           <table>
             <thead>
               <th>Order ID</th>
@@ -115,7 +118,7 @@ const Dashboard = () => {
             <tbody></tbody>
           </table>
         </div>
-        <div className={Style.products}>
+        <div className={Style.item2}>
           <h3>Products</h3>
           <div className={Style.addProduct}>
             <button>+Add New Product</button>
