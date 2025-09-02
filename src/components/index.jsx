@@ -163,9 +163,11 @@ const Index = () => {
                 </div>
                 <div className="drop">
                   <ul>
-                    <li><a href="">Price List</a></li>
-                    <li><a href="">E-commerce</a></li>
-                    <li><a href="">Farm Logo Design</a></li>
+                    <li><a href="">Farmer</a></li>
+                    <li><a href="">Cooperatives</a></li>
+                    <li><a href="">Wholesalers</a></li>
+                    <li><a href="">Vendors</a></li>
+                    <li><a href="">Agro-Allied Suppliers</a></li>
                   </ul>
                 </div>
               </li>
@@ -177,10 +179,10 @@ const Index = () => {
                 </div>
                 <div className="drop">
                   <ul>
-                    <li><a href="">Buyer</a></li>
-                    <li><a href="">Pricing For Buyers</a></li>
-                    <li><a href="">Order Management</a></li>
-                    <li><a href="">Payment</a></li>
+                    <li><a href="">Buying Guide</a></li>
+                    <li><a href="">Delivery & Payment</a></li>
+                    <li><a href="">Order Tracking</a></li>
+                    <li><a href="">Special Offers</a></li>
                   </ul>
                 </div>
                
@@ -189,13 +191,14 @@ const Index = () => {
             <div className="parent-drop">
               <li>
                 <div className="drop-content">
-                  Resources <i className="fa fa-solid fa-caret-down"></i>
+                  Guides <i className="fa fa-solid fa-caret-down"></i>
                 </div>
                 <div className="drop">
                   <ul>
                     <li><a href="aboutUs.html">About Us</a></li>
                     <li><a href="">Blogs</a></li>
                     <li><a href="">FAQS </a></li>
+                    <li><a href="">Contacts </a></li>
                   </ul>
                 </div>
                 
