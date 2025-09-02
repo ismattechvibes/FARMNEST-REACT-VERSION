@@ -179,7 +179,7 @@ const Index = () => {
                 </div>
                 <div className="drop">
                   <ul>
-                    <li><a href="">Buying Guide</a></li>
+                    <li><a href="">Buying guide</a></li>
                     <li><a href="">Delivery & Payment</a></li>
                     <li><a href="">Order Tracking</a></li>
                     <li><a href="">Special Offers</a></li>
