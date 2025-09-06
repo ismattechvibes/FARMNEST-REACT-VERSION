@@ -61,16 +61,6 @@ ul {
   color: #fff;
 }
 
-/* .drop{
-  display: none;
-  background: #fff;
-  padding: 10px 15px;
-}
-
-.parent-drop:hover .drop{
-  display: block;
-} */
-
 /* Reset parent positioning */
 .parent-drop {
   position: static; /* Changed from relative */
